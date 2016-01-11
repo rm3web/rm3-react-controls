@@ -1,4 +1,10 @@
-# Text Blocks React Editor
+# rm3 React Controls
+
+[![Build Status](https://travis-ci.org/rm3web/rm3-react-controls.svg?branch=master)](https://travis-ci.org/rm3web/rm3-react-controls)
+
+A bunch of miscellaeous controls for rm3.
+
+More documentation later.
 
 ## Contributing
 
