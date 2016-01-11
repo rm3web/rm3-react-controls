@@ -18,13 +18,14 @@
   "browserify": {
     "transform": [
       [
-        "browserify-jsx"
+        "babelify"
       ]
     ]
   },
   "author": "Wirehead <wh-npm@wirewd.com>",
   "license": "BSD-2-Clause",
   "dependencies": {
+    "intl": "^1.0.1",
     "react": "~0.14.6",
     "react-addons-linked-state-mixin": "~0.14.6",
     "react-intl": "1.2.0",
@@ -36,9 +37,7 @@
     "babel-register": "~6.3.13",
     "babelify": "~7.2.0",
     "browserify": "^13.0.0",
-    "browserify-jsx": "~1.0.0",
     "chai": "~3.4.1",
-    "intl": "^1.0.1",
     "istanbul": "~0.4.1",
     "karma": "~0.13.19",
     "karma-browserify": "~4.4.2",

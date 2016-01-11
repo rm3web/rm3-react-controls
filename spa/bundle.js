@@ -10,15 +10,12 @@ var intl = {
   }
 };
 
-var renderTarget = document.getElementById('pathname');
-var PathFactory = React.createFactory(JsxForms.PathNameComponent);
-
-var renderedComponent = ReactDOM.render(
-  PathFactory({
-    locales: intl.locales,
-    messages: intl.messages,
-    path: "wh",
-    leaf: "blah"
-  }),
-  renderTarget
+ReactDOM.render(
+  <div>
+    <h2>Pathname control</h2>
+    <JsxForms.PathNameComponent locales={intl.locales} messages={intl.messages}
+      path="wh" leaf="blah" />
+  </div>
+  ,
+  document.getElementById('pathname')
 );
