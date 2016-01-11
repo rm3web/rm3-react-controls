@@ -2,6 +2,7 @@
 /node_modules
 /lib
 /test
+/spa
 .travis.yml
 travis.conf.js
 karma.conf.js
