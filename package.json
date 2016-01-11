@@ -10,6 +10,10 @@
     "travis": "npm run test && npm run karma:travis",
     "prepublish": "./node_modules/.bin/babel lib -d dist/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rm3web/rm3-react-controls"
+  },
   "browserify": {
     "transform": [
       [
