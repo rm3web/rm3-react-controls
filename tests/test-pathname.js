@@ -7,7 +7,7 @@ var React = require('react');
 var TestUtils = require('react-addons-test-utils');
 var createComponent = require('./lib/create-component');
 var should = require('chai').should()
-var JsxForms = require('../lib/index.jsx');
+var JsxForms = require('../lib/');
 var SitePath = require ('sitepath');
 
 var intl = {
