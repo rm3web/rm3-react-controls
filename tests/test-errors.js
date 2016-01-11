@@ -1,3 +1,8 @@
+if (!global.Intl) {
+    // No `Intl`, so use and load the polyfill.
+    global.Intl = require('intl');
+}
+
 var React = require('react');
 var TestUtils = require('react-addons-test-utils');
 var createComponent = require('./lib/create-component');
