@@ -6,6 +6,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Live-reload for the single page test-app
 
+### Changed
+- Updated dependencies
+
 ## [0.0.4] - 2016-1-10
 ### Changed
 - Using babelify instead of browserify-jsx
