@@ -1,15 +1,24 @@
 language: node_js
 node_js:
-  - "0.12"
-  - "4"
-  - "5"
+- '0.12'
+- '4'
+- '5'
 env:
-  - CXX=g++-4.8
+- CXX=g++-4.8
 addons:
   sauce_connect: true
   apt:
     sources:
-      - ubuntu-toolchain-r-test
+    - ubuntu-toolchain-r-test
     packages:
-      - g++-4.8
-script: "npm run travis"
+    - g++-4.8
+script: npm run travis
+deploy:
+  provider: npm
+  email: wh-npm@wirewd.com
+  api_key:
+    secure: c2rEj5RJG5AX4dtszF3DS5UWofTDSOxe5+qkCjF32fldJ/kfZxFh8ErToj5oCZ/cXYkFomzIfDi9ch0/ytW6dWyShBBdJQbOQ6UB2ntdVjYPqNtPnrVM+nvyG8gVf2OcDRi7JaM/+IY9d963xLcl0W8HXaww+qSZGq+mJxPZj3Q0cPKkYLEY7zftcpt9z7jZSfXnG4ywZGVFSVB9Vm+dYXtKKvZMQNw/UfxQgQhSDk/VLkHKqAU+PHbUv1XeY1Ot9X0KPdqi1cKlYuzwKPOwR585WZua07PLd5RvUsi3j/hgD8Wdw2kN7Ms/y9ivcp5OLQavIHlBUw98TJC4k+o7Z1bOv0LMm5G7mJyUKobI+ycJ7iXSGzmcm25DbnlMw3Mxqph8fzx6fEN9Dcje6CXR6VAAYf7AAdS5Bi5Y5dad165t2LAeu+BGBCxTykvONKbftbfhQEyeAazdSA+Q3DBX67gQrhcwTqoismPpJrGuQXQk4E0VMSQGa1u4XHkM1rYW7I4rGrWIskiOY1SOWz2HJswYMlHcqUT/BB5m3D7lGnIcRvWdvz0c56sSVL1ZVp5UtuMrWOdptYidnU8C/IQscEUcIkJDC/tkzFfOmhICUy4NeARYgoBHR8FgQ2F4WhLRvoDo81Mli0uoGT9j1mDAKy78oQ5PtKUzjfTdnBxVOuY=
+  on:
+    tags: true
+    repo: rm3web/rm3-react-controls
+    node: '0.12'
