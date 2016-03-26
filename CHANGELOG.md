@@ -5,9 +5,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 ### Added
 - Live-reload for the single page test-app
+- Password control
 
 ### Changed
 - Updated dependencies
+- React is now a peer dependency
 
 ## [0.0.4] - 2016-1-10
 ### Changed
