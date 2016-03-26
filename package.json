@@ -27,7 +27,8 @@
   "dependencies": {
     "intl": "^1.0.1",
     "react-intl": "1.2.0",
-    "sitepath": "^0.2.0"
+    "sitepath": "^0.2.0",
+    "zxcvbn": "^4.2.0"
   },
   "peerDependencies": {
     "react": "~0.14.7",
