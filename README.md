@@ -2,9 +2,12 @@
 
 [![Build Status](https://travis-ci.org/rm3web/rm3-react-controls.svg?branch=master)](https://travis-ci.org/rm3web/rm3-react-controls) [![Dependency Status](https://david-dm.org/rm3web/rm3-react-controls.svg)](https://david-dm.org/rm3web/rm3-react-controls) [![npm version](https://badge.fury.io/js/rm3-react-controls.svg)](https://badge.fury.io/js/rm3-react-controls)
 
-A bunch of miscellaeous controls for rm3.
+A bunch of miscellaeous controls for [rm3](https://github.com/rm3web/rm3).
 
-More documentation later.
+This package includes
+ * Simple form error display
+ * Simple input for a [SitePath](https://github.com/rm3web/sitepath).
+ * Password form that also checks the password strength using [zxcvbn](https://www.npmjs.com/package/zxcvbn).
 
 ## Contributing
 
