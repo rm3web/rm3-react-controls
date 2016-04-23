@@ -42,7 +42,7 @@
     "browserify": "^13.0.0",
     "budo": "^8.0.4",
     "chai": "~3.5.0",
-    "istanbul": "~0.4.1",
+    "istanbul": "~0.4.3",
     "karma": "~0.13.19",
     "karma-browserify": "~5.0.2",
     "karma-chrome-launcher": "~0.2.2",
