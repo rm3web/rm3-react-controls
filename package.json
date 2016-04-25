@@ -26,7 +26,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "intl": "^1.0.1",
-    "react-intl": "1.2.0",
+    "react-intl": "2.1.1",
     "sitepath": "^0.2.0",
     "zxcvbn": "^4.2.0"
   },
