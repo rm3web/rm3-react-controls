@@ -1,6 +1,5 @@
 language: node_js
 node_js:
-- '0.12'
 - '4'
 - '5'
 env:
@@ -21,4 +20,4 @@ deploy:
   on:
     tags: true
     repo: rm3web/rm3-react-controls
-    node: '0.12'
+    node: '4'
