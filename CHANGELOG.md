@@ -4,6 +4,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.6] - 2016-6-12
+### Changed
+- Updated dependencies, including fairly severe change with react-intl.
+
 ## [0.0.5] - 2016-3-26
 ### Added
 - Live-reload for the single page test-app
@@ -29,7 +33,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - New project
 
-[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.5...HEAD
+[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.6...HEAD
+[0.0.6]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.5...v0.0.6
 [0.0.5]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.4...v0.0.5
 [0.0.4]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.2...v0.0.3
