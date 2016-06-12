@@ -25,7 +25,7 @@ describe('PathNameComponent', function() {
       locales: intl.locales,
       messages: intl.messages,
       path: 'wh.cookie'
-    });
+    }).props.children;
 
     form.type.should.equal('fieldset');
 
@@ -47,7 +47,7 @@ describe('PathNameComponent', function() {
       messages: intl.messages,
       path: 'wh.cookie',
       leaf: 'chocolate'
-    });
+    }).props.children;
 
     form.type.should.equal('fieldset');
 
@@ -69,7 +69,7 @@ describe('PathNameComponent', function() {
       locales: intl.locales,
       messages: intl.messages,
       path: new SitePath(['wh', 'cookie'])
-    });
+    }).props.children;
 
     form.type.should.equal('fieldset');
 
