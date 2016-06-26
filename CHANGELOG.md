@@ -3,6 +3,8 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Fixed
+- Password control wasn't updating.
 
 ## [0.0.6] - 2016-6-12
 ### Changed
