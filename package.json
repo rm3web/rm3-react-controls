@@ -37,6 +37,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "intl": "^1.2.4",
+    "nyc": "^8.1.0",
     "react-intl": "2.1.4",
     "sitepath": "^0.2.0",
     "zxcvbn": "^4.2.0"
