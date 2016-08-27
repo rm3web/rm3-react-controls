@@ -40,7 +40,6 @@ describe('SubmitButton', function() {
 
     saveAsCheckbox.props.htmlFor.should.equal('saveAsDraft');
     saveAsCheckbox.type.should.equal('label');
-    saveAsCheckbox.props.children.length.should.equal(2);
     saveAsCheckbox.props.children[0].type.should.equal('input');
     saveAsCheckbox.props.children[0].props.name.should.equal('saveAsDraft');
     saveAsCheckbox.props.children[0].props.value.should.equal('true');
@@ -70,7 +69,6 @@ describe('SubmitButton', function() {
 
     saveAsCheckbox.props.htmlFor.should.equal('saveAsDraft');
     saveAsCheckbox.type.should.equal('label');
-    saveAsCheckbox.props.children.length.should.equal(2);
     saveAsCheckbox.props.children[0].type.should.equal('input');
     saveAsCheckbox.props.children[0].props.name.should.equal('saveAsDraft');
     saveAsCheckbox.props.children[0].props.value.should.equal('true');
@@ -84,7 +82,6 @@ describe('SubmitButton', function() {
 
     createNewDraftCheckbox.props.htmlFor.should.equal('createNewDraft');
     createNewDraftCheckbox.type.should.equal('label');
-    createNewDraftCheckbox.props.children.length.should.equal(2);
     createNewDraftCheckbox.props.children[0].type.should.equal('input');
     createNewDraftCheckbox.props.children[0].props.name.should.equal('createNewDraft');
     createNewDraftCheckbox.props.children[0].props.value.should.equal('true');
