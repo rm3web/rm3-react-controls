@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- SubmitButton to handle the stateful submit button.
+
 ### Changed
 - Updated dependencies
 - Removed `react-addons-linked-state-mixin`, as it turns out it wasn't used.

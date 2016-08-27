@@ -8,6 +8,7 @@ This package includes
  * Simple form error display
  * Simple input for a [SitePath](https://github.com/rm3web/sitepath).
  * Password form that also checks the password strength using [zxcvbn](https://www.npmjs.com/package/zxcvbn).
+ * Submit button
 
 ## Contributing
 
