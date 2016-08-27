@@ -4,6 +4,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.10] - 2016-8-27
+### Fixed
+- prop types weren't quite right
+
 ## [0.0.9] - 2016-8-27
 ### Fixed
 - nyc should be a devDependancy
@@ -54,8 +58,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - New project
 
-[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.9...HEAD
-[0.0.8]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.8...v0.0.9
+[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.10...HEAD
+[0.0.10]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.9...v0.0.10
+[0.0.9]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.8...v0.0.9
 [0.0.8]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.7...v0.0.8
 [0.0.7]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.6...v0.0.7
 [0.0.6]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.5...v0.0.6
