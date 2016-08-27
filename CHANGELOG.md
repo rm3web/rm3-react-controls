@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Updated dependencies
+- Removed `react-addons-linked-state-mixin`, as it turns out it wasn't used.
 
 ## [0.0.7] - 2016-6-26
 ### Changed
