@@ -7,9 +7,11 @@ var intl = {
   messages: {
     AUTO_GENERATE_SLUG: 'Auto-generate slug',
     CONFIRM_PASSWORD: 'Confirm password',
+    CREATE_NEW_DRAFT: 'Create new draft',
     PATH: 'Path',
     PASSWORD: 'Password',
-    PASSWORD_ENTER_TWICE: 'Password (Enter twice)'
+    PASSWORD_ENTER_TWICE: 'Password (Enter twice)',
+    SAVE_AS_DRAFT: 'Save as draft'
   }
 };
 
@@ -25,6 +27,9 @@ ReactDOM.render(
     <JsxForms.PasswordFieldSet locales={intl.locales} messages={intl.messages} display={true}
        errors= {{}} />
     </form>
+    <h2>Submit Button</h2>
+    <JsxForms.SubmitButton locales={intl.locales} messages={intl.messages} isDraft={true} buttonMessage={'qqqq'} />
+    <JsxForms.SubmitButton locales={intl.locales} messages={intl.messages} isDraft={false} buttonMessage={'ffffff'} />
   </div>
   ,
   document.getElementById('pathname')
