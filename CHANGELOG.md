@@ -5,6 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 ### Added
 - SubmitButton to handle the stateful submit button.
+- FormWrapper to wrap up the logic for the form tag and remove copypasta.
 
 ### Changed
 - Updated dependencies
