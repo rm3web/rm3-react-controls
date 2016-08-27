@@ -28,7 +28,6 @@ describe('SubmitButton', function() {
 
     form.type.should.equal('fieldset');
     var formBody = form.props.children.props.children;
-    formBody.length.should.equal(2);
 
     formBody[0].type.should.equal('div');
     formBody[0].props.className.should.equal('pure-u-1-3');
@@ -59,7 +58,6 @@ describe('SubmitButton', function() {
 
     form.type.should.equal('fieldset');
     var formBody = form.props.children.props.children;
-    formBody.length.should.equal(3);
 
     formBody[0].type.should.equal('div');
     formBody[0].props.className.should.equal('pure-u-1-3');
