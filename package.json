@@ -8,12 +8,19 @@
     "karma": "./node_modules/.bin/karma start",
     "karma:travis": "./node_modules/.bin/karma start travis.conf.js",
     "travis": "npm run test && npm run karma:travis",
+    "coverage": "./node_modules/.bin/nyc ./node_modules/.bin/_mocha --compilers js:babel-register tests/*.js",
     "prepublish": "./node_modules/.bin/babel lib -d dist/",
     "spa": "./node_modules/.bin/budo spa/bundle.js:bundle.out.js --dir spa/ --port 9000 -- -t babelify -p livereactload --port 8000"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:rm3web/rm3-react-controls"
+  },
+  "nyc": {
+    "exclude": [
+      "tests",
+      "node_modules"
+    ]
   },
   "browserify": {
     "transform": [
@@ -30,6 +37,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "intl": "^1.2.4",
+    "nyc": "^8.1.0",
     "react-intl": "2.1.4",
     "sitepath": "^0.2.0",
     "zxcvbn": "^4.2.0"
@@ -46,7 +54,6 @@
     "browserify": "^13.0.0",
     "budo": "^9.0.0",
     "chai": "~3.5.0",
-    "istanbul": "~0.4.1",
     "karma": "~1.2.0",
     "karma-browserify": "~5.1.0",
     "karma-chrome-launcher": "~2.0.0",
