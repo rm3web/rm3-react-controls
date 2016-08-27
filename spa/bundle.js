@@ -11,7 +11,7 @@ var intl = {
     PATH: 'Path',
     PASSWORD: 'Password',
     PASSWORD_ENTER_TWICE: 'Password (Enter twice)',
-    SAVE_AS_DRAFT: 'Save as draft',
+    SAVE_AS_DRAFT: 'Save as draft'
   }
 };
 
