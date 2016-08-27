@@ -4,6 +4,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.9] - 2016-8-27
+### Fixed
+- nyc should be a devDependancy
+
 ## [0.0.8] - 2016-8-27
 ### Added
 - SubmitButton to handle the stateful submit button.
@@ -50,7 +54,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - New project
 
-[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.8...HEAD
+[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.9...HEAD
+[0.0.8]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.8...v0.0.9
 [0.0.8]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.7...v0.0.8
 [0.0.7]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.6...v0.0.7
 [0.0.6]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.5...v0.0.6
