@@ -42,7 +42,7 @@
     "zxcvbn": "^4.2.0"
   },
   "peerDependencies": {
-    "react": "~0.14.7",
+    "react": "~15.3.1",
     "react-addons-linked-state-mixin": "~0.14.7"
   },
   "devDependencies": {
