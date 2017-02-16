@@ -4,6 +4,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.11] - 2017-2-16
+
+### Changed
+- Updated dependencies - React 15
+
 ## [0.0.10] - 2016-8-27
 ### Fixed
 - prop types weren't quite right
