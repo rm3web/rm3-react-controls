@@ -4,6 +4,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.12] - 2017-2-16
+
+### Fixed
+- 0.0.11 was a bad release, specifying one of the dependencies properly.
+
 ## [0.0.11] - 2017-2-16
 
 ### Changed
@@ -63,7 +68,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - New project
 
-[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.10...HEAD
+[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.12...HEAD
+[0.0.12]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.11...v0.0.12
+[0.0.11]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.10...v0.0.11
 [0.0.10]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.9...v0.0.10
 [0.0.9]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.8...v0.0.9
 [0.0.8]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.7...v0.0.8
