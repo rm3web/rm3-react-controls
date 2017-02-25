@@ -36,6 +36,8 @@ ReactDOM.render(
     <h2>Submit Button</h2>
     <JsxForms.SubmitButton locales={intl.locales} messages={intl.messages} isDraft={true} buttonMessage={'qqqq'} />
     <JsxForms.SubmitButton locales={intl.locales} messages={intl.messages} isDraft={false} buttonMessage={'ffffff'} />
+    <JsxForms.SubmitButton onClick={dummyFunc} locales={intl.locales} messages={intl.messages} isDraft={false} buttonMessage={'onSubmit'} />
+    <JsxForms.SubmitButton disabled={true} locales={intl.locales} messages={intl.messages} isDraft={false} buttonMessage={'ffffff'} />
     <h2>Form Wrapper</h2>
     <JsxForms.FormWrapper onSubmit={dummyFunc} proto="fo" section="edit">
     <input type="password" name="password1" />
