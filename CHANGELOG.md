@@ -4,6 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.13] - 2017-2-24
+
 ### Added
 - Adds functionality to hook into form validation.
 
