@@ -4,6 +4,12 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Added
+- PropTypes for validation.
+
+### Fixed
+- Remvoed extraneous logging.
+
 ## [0.0.13] - 2017-2-24
 
 ### Added
