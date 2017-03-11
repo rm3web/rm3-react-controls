@@ -6,6 +6,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 - PropTypes for validation.
+- Lint is now part of the CI build and any lint issues are fixed.
 
 ### Fixed
 - Remvoed extraneous logging.

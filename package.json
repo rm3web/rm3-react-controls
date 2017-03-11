@@ -7,7 +7,7 @@
     "test": "./node_modules/.bin/mocha --compilers js:babel-register tests/*.js",
     "karma": "./node_modules/.bin/karma start",
     "karma:travis": "./node_modules/.bin/karma start travis.conf.js",
-    "travis": "npm run test && npm run karma:travis",
+    "travis": "npm run test && npm run karma:travis && npm run lint",
     "coverage": "./node_modules/.bin/nyc ./node_modules/.bin/_mocha --compilers js:babel-register tests/*.js",
     "prepublish": "./node_modules/.bin/babel lib -d dist/",
     "lint": "./node_modules/.bin/eslint lib tests",
