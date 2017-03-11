@@ -1,12 +1,12 @@
 if (!global.Intl) {
-    // No `Intl`, so use and load the polyfill.
-    global.Intl = require('intl');
+  // No `Intl`, so use and load the polyfill.
+  global.Intl = require('intl');
 }
 
 var React = require('react');
 var TestUtils = require('react-addons-test-utils');
 var createComponent = require('./lib/create-component');
-var should = require('chai').should()
+var should = require('chai').should();
 var JsxForms = require('../lib/');
 
 describe('SingleError', function() {

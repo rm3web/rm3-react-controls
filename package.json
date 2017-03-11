@@ -7,9 +7,10 @@
     "test": "./node_modules/.bin/mocha --compilers js:babel-register tests/*.js",
     "karma": "./node_modules/.bin/karma start",
     "karma:travis": "./node_modules/.bin/karma start travis.conf.js",
-    "travis": "npm run test && npm run karma:travis",
+    "travis": "npm run test && npm run karma:travis && npm run lint",
     "coverage": "./node_modules/.bin/nyc ./node_modules/.bin/_mocha --compilers js:babel-register tests/*.js",
     "prepublish": "./node_modules/.bin/babel lib -d dist/",
+    "lint": "./node_modules/.bin/eslint lib tests",
     "spa": "./node_modules/.bin/budo spa/bundle.js:bundle.out.js --dir spa/ --port 9000 -- -t babelify -p livereactload --port 8000"
   },
   "repository": {
@@ -54,6 +55,10 @@
     "browserify": "^13.0.0",
     "budo": "^9.0.0",
     "chai": "~3.5.0",
+    "eslint": "^2.12.0",
+    "eslint-plugin-no-only-tests": "^1.1.0",
+    "eslint-plugin-node": "^1.4.0",
+    "eslint-plugin-react": "^5.1.1",
     "karma": "~1.5.0",
     "karma-browserify": "~5.1.0",
     "karma-chrome-launcher": "~2.0.0",
