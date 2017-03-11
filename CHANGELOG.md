@@ -4,6 +4,29 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.13] - 2017-2-24
+
+### Added
+- Adds functionality to hook into form validation.
+
+## [0.0.12] - 2017-2-16
+
+### Fixed
+- 0.0.11 was a bad release, specifying one of the dependencies properly.
+
+## [0.0.11] - 2017-2-16
+
+### Changed
+- Updated dependencies - React 15
+
+## [0.0.10] - 2016-8-27
+### Fixed
+- prop types weren't quite right
+
+## [0.0.9] - 2016-8-27
+### Fixed
+- nyc should be a devDependancy
+
 ## [0.0.8] - 2016-8-27
 ### Added
 - SubmitButton to handle the stateful submit button.
@@ -50,7 +73,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - New project
 
-[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.8...HEAD
+[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.12...HEAD
+[0.0.12]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.11...v0.0.12
+[0.0.11]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.10...v0.0.11
+[0.0.10]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.9...v0.0.10
+[0.0.9]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.8...v0.0.9
 [0.0.8]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.7...v0.0.8
 [0.0.7]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.6...v0.0.7
 [0.0.6]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.5...v0.0.6
