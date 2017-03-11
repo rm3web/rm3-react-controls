@@ -11,6 +11,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 - Remvoed extraneous logging.
 
+### Removed
+- Don't need Linked State mixin.
+
 ## [0.0.13] - 2017-2-24
 
 ### Added
