@@ -4,9 +4,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.14] - 2017-3-18
+
 ### Added
 - PropTypes for validation.
 - Lint is now part of the CI build and any lint issues are fixed.
+
+### Changed
+- Updated dependencies
 
 ### Fixed
 - Remvoed extraneous logging.
@@ -79,11 +84,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 - Fixed import path
 
-## [0.0.1] - 2016-1-10
+## 0.0.1 - 2016-1-10
 ### Added
 - New project
 
-[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.12...HEAD
+[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.14...HEAD
+[0.0.14]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.13...v0.0.14
+[0.0.13]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.12...v0.0.13
 [0.0.12]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.11...v0.0.12
 [0.0.11]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.10...v0.0.11
 [0.0.10]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.9...v0.0.10
