@@ -4,6 +4,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.15] - 2017-6-17
+### Changed
+- Updated dependencies, including React 15.5.
+
 ## [0.0.14] - 2017-3-18
 
 ### Added
@@ -88,7 +92,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - New project
 
-[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.14...HEAD
+[Unreleased]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.15...HEAD
+[0.0.15]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.14...v0.0.15
 [0.0.14]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.13...v0.0.14
 [0.0.13]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.12...v0.0.13
 [0.0.12]: https://github.com/rm3web/rm3-react-controls/compare/v0.0.11...v0.0.12

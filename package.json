@@ -1,6 +1,6 @@
 {
   "name": "rm3-react-controls",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "React tools for rm3",
   "main": "dist/index.js",
   "scripts": {
