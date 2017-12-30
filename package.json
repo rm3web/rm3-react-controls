@@ -55,7 +55,7 @@
     "babelify": "~8.0.0",
     "browserify": "^14.3.0",
     "budo": "^10.0.3",
-    "chai": "~3.5.0",
+    "chai": "~4.1.0",
     "eslint": "^3.18.0",
     "eslint-plugin-no-only-tests": "^2.0.0",
     "eslint-plugin-node": "^4.2.2",
