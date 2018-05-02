@@ -1,6 +1,6 @@
 {
   "name": "rm3-react-controls",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "React tools for rm3",
   "main": "dist/index.js",
   "scripts": {
@@ -31,8 +31,8 @@
     ]
   },
   "engines": {
-    "node": "4.x || 5.x",
-    "npm": "2.x || 3.x"
+    "node": "4.x || 5.x || 6.x || 8.x",
+    "npm": "2.x || 3.x || 4.x || 5.x"
   },
   "author": "Wirehead <wh-npm@wirewd.com>",
   "license": "BSD-2-Clause",
