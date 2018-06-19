@@ -38,7 +38,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "intl": "^1.2.4",
-    "prop-types": "~15.5.4",
+    "prop-types": "~15.6.2",
     "react-intl": "2.3.0",
     "sitepath": "^0.2.0",
     "zxcvbn": "^4.2.0"
