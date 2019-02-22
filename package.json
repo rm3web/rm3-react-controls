@@ -54,7 +54,7 @@
     "babel-register": "~6.26.0",
     "babelify": "~8.0.0",
     "browserify": "^14.3.0",
-    "budo": "^11.2.0",
+    "budo": "^11.6.1",
     "chai": "~4.1.2",
     "eslint": "^3.18.0",
     "eslint-plugin-no-only-tests": "^2.0.0",
