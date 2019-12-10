@@ -39,7 +39,7 @@
   "dependencies": {
     "intl": "^1.2.4",
     "prop-types": "~15.5.4",
-    "react-intl": "2.3.0",
+    "react-intl": "3.9.2",
     "sitepath": "^0.2.0",
     "zxcvbn": "^4.2.0"
   },
